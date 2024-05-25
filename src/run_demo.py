@@ -29,7 +29,7 @@ warnings.filterwarnings("ignore")
 """"""
 num_ensemblers=100
 
-glass_df = pd.read_csv('../dat/glass.csv', header=None)
+glass_df = pd.read_csv('/dat/glass.csv', header=None)
 X = glass_df.values[:, :-1]
 ground_truth = glass_df.values[:, -1]
 
