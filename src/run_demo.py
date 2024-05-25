@@ -25,10 +25,9 @@ from detectors import LSHiForest
 
 import warnings
 warnings.filterwarnings("ignore")
-filename='glass'
 """"""
 num_ensemblers=100
-glass_df = pd.read_csv('data/' + filename + '.csv', header=None)
+glass_df = pd.read_csv('/content/LSHiForest_fork/dat/glass.csv', header=None)
 X = glass_df.values[:, :-1]
 ground_truth = glass_df.values[:, -1]
 
