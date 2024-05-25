@@ -25,7 +25,7 @@ from detectors import LSHiForest
 
 import warnings
 warnings.filterwarnings("ignore")
-filename='glass.csv'
+filename='glass'
 """"""
 num_ensemblers=100
 glass_df = pd.read_csv('data/' + filename + '.csv', header=None)
